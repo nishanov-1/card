@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.header {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+input {
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+.blockst {
+  background: #fff;
+  width: 342px;
+  height: 444px;
+  border-radius: 15px;
+}
+.blocks {
+  width: 342px;
+  height: 444px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hh {
+  margin-top: -30px;
+}
+.head-2 h4 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.head-2 p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #f90;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+}
+.head-2 {
+  margin: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.container {
+  width: 390px;
+  height: 844px;
+  background: url(./img/img/kar.jpg) no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer button {
+  margin-top: 10px;
+  width: 196px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: rgb(253, 87, 21);
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.519px; /* 136.216% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+select {
+  margin-top: 10px;
+  /* border: 2px solid grey; */
+  border: none;
+  border-bottom: 2px solid rgb(32, 29, 29);
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: rgb(126, 123, 122);
+  font-weight: 800;
+  outline: none;
+  background: none;
+}
+.block h3 {
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 20px;
+  /* margin-bottom: 10px; */
+}
+.block h4 {
+  color: #f90;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.headerr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1pc;
+}
+.headerr h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+.headerr h2 {
+  color: #dad8d8;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.9948354341736695) 0%,
+    rgba(67, 9, 121, 0.9332107843137255) 0%,
+    rgba(0, 255, 209, 0.9836309523809523) 100%
+  );
+}
+.blokkk {
+  position: relative;
+}
+.blo {
+  position: relative;
+}
+.h33 {
+  position: absolute;
+  top: 0;
+}
+input {
+  outline: none;
+}
+.h1 {
+  color: rgba(78, 78, 78, 0.824);
+  text-transform: uppercase;
+  margin: 25px 0px 0px 10px;
+}
+
+.h2 {
+  color: rgb(134, 129, 129);
+  margin-top: 10px;
+  margin-left: 110px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.h4 {
+  color: rgb(108, 108, 106);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.h3 {
+  color: rgb(100, 100, 100);
+  margin-top: 10px;
+  margin-left: 130px;
+}
+
+.blo {
+  margin-top: 90px;
+  border-radius: 10px;
+}
+.blockst {
+  overflow-y: scroll;
+  min-width: 370px;
+  background: none;
+}
+.img {
+  border-radius: 5px;
+  width: 360px;
+  margin-left: -10px;
+}
+.img1 {
+  border-radius: 5px;
+  width: 342px;
+}
+
+.hh1 {
+  color: white;
+}
+.hh2 {
+  color: white;
+  margin-top: 40px;
+}
+.hh4 {
+  margin-top: 12px;
+  margin-left: 10px;
+  color: #fff;
+}
+.hh3 {
+  margin-top: 5px;
+  margin-left: 10px;
+  color: #fff;
+}
+.img2 {
+  width: 410px;
+  margin-left: -45px;
+}
+.h44 {
+  margin-top: 70px;
+}
+.hhh1 {
+  margin-top: 40px;
+}
+.hhh2 {
+  margin: 10px 0px;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 70px;
+  color: rgb(249, 242, 242);
+}
+input {
+  margin: 15px 0;
+}
+.push {
+  margin-top: 30px;
+  position: relative;
+}
+
+.op1 {
+  position: absolute;
+  top: 315px;
+}
+.op2 {
+  position: absolute;
+  top: 385px;
+}
+.op3 {
+  position: absolute;
+  top: 460px;
+}
+.op4 {
+  position: absolute;
+  top: 535px;
+}
+button {
+  transition: 0.7s;
+}
+button:hover {
+  transform: scale(1.1);
+  color: rgb(244, 244, 244);
+  background: none;
+  border: 2px solid rgb(255, 243, 243);
+}
+
+@media (max-width: 862px) {
+  #header {
+    flex-direction: column;
+  }
+}
